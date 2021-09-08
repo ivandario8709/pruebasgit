@@ -8,3 +8,5 @@ Este proyeto construido como prueba, programado en html y es un ejemplo.
 git push
 git pull
 ```
+
+#para visualizar la pagina pulsa [click aqui](https://ivandario8709.github.io/pruebasgit/)

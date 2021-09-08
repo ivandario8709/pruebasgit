@@ -1,0 +1,36 @@
+header{
+background-color: rgb(155, 108, 108);
+text-align: center;
+}
+header img{
+ width: 30%;
+ border-radius: 5%;
+
+}
+section{
+    width: 70% ;
+    margin:auto;
+}
+article{
+    padding: 20px 0 20px 0;
+    border-bottom: 1px dashed rgb(139, 139, 163);
+}
+article h2{
+    float: left;
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 2px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+}
+
+article p, article ul{
+    margin-left: 20%;
+    font-family: fantasy;
+    color: rgb(82, 65, 65);
+    line-height: 2m;
+    margin-bottom: 1em;   
+}
+article ul li{
+    margin-left: -3%;
+    list-style: square;
+}

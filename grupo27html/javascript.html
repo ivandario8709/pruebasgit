@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header><h1 id="Titulo">Introduccion a javascript</h1></header>
+    <p id="parrafo">Bienvenido grupo 27</p>
+    <img src="niñoblanco.jpg"; 
+        alt="niño blanco" id="imagen">
+        
+        <button onclick="document.getElementById('imagen').
+        src='niñoblanco.jpg'"> niño blanco</button>
+
+        <button onclick="document.getElementById('imagen').
+        src='niñonegro.jpg'"> niño negro</button>
+
+    <script>
+     document.getElementById("Titulo").style.color="red";
+     document.getElementById("parrafo").
+     innerHTML+=" listos a aprender"
+
+     let num=0;
+     var num1=0;
+     const PI=3.1416;
+     function cambioColor(){
+         if(num==0){
+           document.getElementById("imagen").
+           src="niñonegro.jpg";
+           num=1;
+         }else{
+            document.getElementById("imagen").
+            src="niñoblanco.jpg";
+           num=0;
+         }
+     }
+    </script>
+</body>
+</html>
